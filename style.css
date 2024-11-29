@@ -26,3 +26,53 @@ a:link {
     right: 0;
     bottom: 0;
 }
+
+.boxcontainer {
+  display:flex;
+    width:700px;
+    height:200px;
+    margin-right:auto;
+    margin-left:auto;
+  }
+  
+  .hide {
+   visibility: hidden;
+    width: 0px;
+    transition: width .5s;
+    overflow:hidden;
+  }
+      
+  .boxcontainer:hover .hide {
+  visibility: visible;
+    color: black;
+    background-color:lightgrey;
+    padding:15px;
+    width:300px; 
+    margin-left:auto;
+    margin-right:auto;
+     overflow: hidden;
+  }
+  
+  .boxicon {
+    
+   margin-left:auto;
+    margin-right:auto;
+  }
+
+  .float {
+  
+    display:block;
+    position:relative;
+    animation: dollmove 3.5s infinite;
+  filter: drop-shadow(5px 10px 4px rgba(0,0,0,.2));
+  }
+  
+  @keyframes dollmove {
+    0%   {top: -15px;}
+    50%  {top: 15px;}
+    100% {top:-15px;}
+  }
+  
+  
+  
+   /* https://metalvalley.neocities.org/sidebar/code */ 
