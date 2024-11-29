@@ -29,10 +29,11 @@ a:link {
 
 .boxcontainer {
   display:flex;
-    width:700px;
+    width:1000px;
     height:200px;
     margin-right:auto;
     margin-left:auto;
+    margin-bottom:120px;
   }
   
   .hide {
@@ -47,7 +48,7 @@ a:link {
     color: black;
     background-color:lightgrey;
     padding:15px;
-    width:300px; 
+    width:500px; 
     margin-left:auto;
     margin-right:auto;
      overflow: hidden;
@@ -76,3 +77,12 @@ a:link {
   
   
    /* https://metalvalley.neocities.org/sidebar/code */ 
+
+   .column1 {
+    float: left;
+    width: 30%;
+  }
+  .column2 {
+    float: left;
+    width: 70%;
+  }
