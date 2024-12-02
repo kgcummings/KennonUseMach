@@ -86,3 +86,16 @@ a:link {
     float: left;
     width: 70%;
   }
+
+/* link hover italics */
+
+a:hover {
+  font-style: italic;
+  }
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
