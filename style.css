@@ -60,6 +60,8 @@ a:link {
          overflow: hidden;
       }
  }
+
+ 
  
 
   .boxicon {
@@ -104,7 +106,7 @@ a:link {
         margin-right:auto;
         margin-left:auto;
         margin-bottom:120px;
-        margin-top:60px;
+        margin-top:90px;
         flex-direction: column;
       }
       
@@ -137,6 +139,10 @@ a:link {
         width: 100%;
         margin: 20px;
         font-size: 2.5vw;
+      }
+
+      .h2 {
+        margin-bottom: 40px;
       }
     }
   
