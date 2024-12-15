@@ -54,39 +54,88 @@ a:link {
     margin-right:auto;
      overflow: hidden;
   }
-  
+
   .boxicon {
     
-   margin-left:auto;
-    margin-right:auto;
-  }
+    margin-left:auto;
+     margin-right:auto;
+   }
+ 
+   .float {
+   
+     display:block;
+     position:relative;
+     animation: dollmove 3.5s infinite;
+   filter: drop-shadow(5px 10px 4px rgba(0,0,0,.2));
+   }
+   
+   @keyframes dollmove {
+     0%   {top: -15px;}
+     50%  {top: 15px;}
+     100% {top:-15px;}
+   }
+   
+   
+   
+    /* https://metalvalley.neocities.org/sidebar/code */ 
+ 
+    .column1 {
+     float: left;
+     width: 30%;
+   }
+   .column2 {
+     float: left;
+     width: 70%;
+   }
 
-  .float {
-  
-    display:block;
-    position:relative;
-    animation: dollmove 3.5s infinite;
-  filter: drop-shadow(5px 10px 4px rgba(0,0,0,.2));
-  }
-  
-  @keyframes dollmove {
-    0%   {top: -15px;}
-    50%  {top: 15px;}
-    100% {top:-15px;}
-  }
-  
-  
-  
-   /* https://metalvalley.neocities.org/sidebar/code */ 
+  @media only screen and (max-width: 768px) {
+    .boxcontainer {
+      display:flex;
+        width:100%;
+        height:200px;
+        margin-right:auto;
+        margin-left:auto;
+        margin-bottom:120px;
+        margin-top:60px;
+        flex-direction: column;
+      }
+      
+      .hide {
+       visibility: visible;
+        width: 0px;
+        overflow:show;
+      }
+    .boxcontainer .hide {
+        color: black;
+        background-color:lightgrey;
+        padding:15px;
+        width:100%; 
+        margin-left:auto;
+        margin-right:auto;
+         overflow: hidden;
+      }
 
-   .column1 {
-    float: left;
-    width: 30%;
-  }
-  .column2 {
-    float: left;
-    width: 70%;
-  }
+      .boxicon {
+    
+        margin-left:auto;
+         margin-right:auto;
+         margin-bottom: 40px;
+       }
+
+       .column1 {
+        width: 100%;
+      }
+      .column2 {
+        width: 100%;
+        margin: 20px;
+        font-size: 2.5vw;
+        height: 400px
+      }
+
+    }
+  
+  
+ 
 
 /* link hover italics */
 
