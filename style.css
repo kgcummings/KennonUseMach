@@ -128,3 +128,10 @@ a:hover {
   }
 
   
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="frametime"] {
+      width: 100%;
+    }
+  }
+  
