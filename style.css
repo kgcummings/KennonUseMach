@@ -6,6 +6,10 @@ body{
     padding-left: 50px;
 }
 
+.wholethang {
+  width: 100%
+}
+
 a:link {
     color: white;
     background-color: transparent;
@@ -129,9 +133,7 @@ a:link {
         width: 100%;
         margin: 20px;
         font-size: 2.5vw;
-        height: 400px
       }
-
     }
   
   
